@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyAnime</string>
+    <string name="title_home">Home</string>
+    <string name="title_anime_top">Top</string>
+    <string name="title_anime_search">Search</string>
+    <string name="title_anime_favourite">Favourite</string>
 </resources>

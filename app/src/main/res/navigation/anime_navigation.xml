@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anime_navigation"
+    app:startDestination="@+id/navigation_top">
+
+    <fragment
+        android:id="@+id/navigation_top"
+        android:name="com.fab.myanime.ui.favouriteanime.FavouriteAnimeFragment"
+        android:label="@string/title_anime_top"
+        tools:layout="@layout/fragment_anime_search" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.fab.myanime.ui.topanime.TopAnimeFragment"
+        android:label="@string/title_anime_search"
+        tools:layout="@layout/fragment_anime_top" />
+
+    <fragment
+        android:id="@+id/navigation_favourite"
+        android:name="com.fab.myanime.ui.searchanime.SearchAnimeFragment"
+        android:label="@string/title_anime_favourite"
+        tools:layout="@layout/fragment_anime_favourite" />
+</navigation>
